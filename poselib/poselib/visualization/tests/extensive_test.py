@@ -1,0 +1,1 @@
+from common import plot_skeleton_motion_interactive

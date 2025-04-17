@@ -306,3 +306,6 @@ if __name__ == "__main__":
     fps = int(sys.argv[4])
 
     fbx_to_npy(file_name_in, file_name_out, root_joint_name, fps)
+    
+    """TODO :  I should make a wrapper exactly here and make it take fbx or nymeria and act accordingly, 
+            I should also pass args through shell since it suits my method of launcing fast data processing on multiple threads with go"""  
